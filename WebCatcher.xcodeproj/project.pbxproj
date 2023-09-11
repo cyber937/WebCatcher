@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4103D30022C2B10700CEC6E0 /* WorkatoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4103D2FF22C2B10700CEC6E0 /* WorkatoController.swift */; };
+		4119FA50217F88BC007429F1 /* CaptureSiteGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119FA4F217F88BC007429F1 /* CaptureSiteGroupViewController.swift */; };
+		4119FA79217FD677007429F1 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119FA78217FD677007429F1 /* NotificationName.swift */; };
+		41359E37218154A900D84D56 /* PSCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41359E2F218154A900D84D56 /* PSCover.swift */; };
+		41359E39218154B800D84D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41359E38218154B800D84D56 /* ViewController.swift */; };
+		413871B822C2D2E900B6151D /* WorkatoPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413871B722C2D2E900B6151D /* WorkatoPostController.swift */; };
+		4147C88921751984004D5ABE /* PersistantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147C88821751984004D5ABE /* PersistantData.swift */; };
+		4147C89221751DF0004D5ABE /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147C89121751DEF004D5ABE /* DataHandler.swift */; };
+		415069582199F4AD00C3751B /* SnapshotProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415069572199F4AD00C3751B /* SnapshotProcessViewController.swift */; };
+		4167C9772194B86100F8083D /* ScheduleViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C9762194B86100F8083D /* ScheduleViewController_Extension.swift */; };
+		4167C9812194EA8900F8083D /* CaptureSiteGroupListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C9802194EA8900F8083D /* CaptureSiteGroupListCellView.swift */; };
+		41680AFC216D116B002BDEAA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41680AFB216D116B002BDEAA /* Utility.swift */; };
+		41822814216BDC76003C51D7 /* WebCatcherController_ScheduleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41822813216BDC76003C51D7 /* WebCatcherController_ScheduleExtension.swift */; };
+		4184162F216E515A00EC47BC /* EmailAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184162E216E515A00EC47BC /* EmailAccountController.swift */; };
+		41A90CDC2167C41F006F7F85 /* ScheduleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A90CD82167C41E006F7F85 /* ScheduleCellView.swift */; };
+		41A90CDE2167C41F006F7F85 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A90CDA2167C41E006F7F85 /* ScheduleViewController.swift */; };
+		41A90CDF2167C41F006F7F85 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A90CDB2167C41F006F7F85 /* Schedule.swift */; };
+		41ADACC521937EB2006533E3 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ADACC421937EB2006533E3 /* ScheduleController.swift */; };
+		41B72ACC219E161700A20379 /* SnapshotProcessViewController_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B72ACB219E161700A20379 /* SnapshotProcessViewController_extension.swift */; };
+		41C3B13D21960B240085D5D9 /* WebCatcherUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B13C21960B240085D5D9 /* WebCatcherUI.swift */; };
+		41C3B14021960D980085D5D9 /* PageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B13F21960D980085D5D9 /* PageHeaderView.swift */; };
+		41CABF2622147620002C7A92 /* ActivityLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CABF2422147620002C7A92 /* ActivityLogController.swift */; };
+		41E69AE8218772910069A1E8 /* GoogleDriveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E69AE7218772910069A1E8 /* GoogleDriveController.swift */; };
+		41E69AF12187A32D0069A1E8 /* GoogleDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E69AF02187A32D0069A1E8 /* GoogleDrive.swift */; };
+		41EB9541218754F300BEC866 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 41EB9540218754F300BEC866 /* Podfile */; };
+		41F4443B24BF7970000F1B72 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F4443A24BF7970000F1B72 /* WebKit.framework */; };
+		41F6FD81215FF1E000A96FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6FD80215FF1E000A96FEC /* AppDelegate.swift */; };
+		41F6FD83215FF1E000A96FEC /* WebCatcherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6FD82215FF1E000A96FEC /* WebCatcherController.swift */; };
+		41F6FD85215FF1E200A96FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F6FD84215FF1E200A96FEC /* Assets.xcassets */; };
+		41F6FD88215FF1E200A96FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F6FD86215FF1E200A96FEC /* Main.storyboard */; };
+		41F6FD94215FF1E200A96FEC /* WebCatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6FD93215FF1E200A96FEC /* WebCatcherTests.swift */; };
+		B03791EBDEA3B1B5EE082CF6 /* Pods_WebCatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5184869171D1BBA313D01725 /* Pods_WebCatcher.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F6FD90215FF1E200A96FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F6FD75215FF1E000A96FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F6FD7C215FF1E000A96FEC;
+			remoteInfo = WebCatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41822836216BF236003C51D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4103D2FF22C2B10700CEC6E0 /* WorkatoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkatoController.swift; sourceTree = "<group>"; };
+		4119FA4F217F88BC007429F1 /* CaptureSiteGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSiteGroupViewController.swift; sourceTree = "<group>"; };
+		4119FA78217FD677007429F1 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		41359E2F218154A900D84D56 /* PSCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCover.swift; sourceTree = "<group>"; };
+		41359E38218154B800D84D56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		413871B722C2D2E900B6151D /* WorkatoPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkatoPostController.swift; sourceTree = "<group>"; };
+		4147C88821751984004D5ABE /* PersistantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantData.swift; sourceTree = "<group>"; };
+		4147C89121751DEF004D5ABE /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		415069572199F4AD00C3751B /* SnapshotProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotProcessViewController.swift; sourceTree = "<group>"; };
+		4167C9762194B86100F8083D /* ScheduleViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController_Extension.swift; sourceTree = "<group>"; };
+		4167C9802194EA8900F8083D /* CaptureSiteGroupListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSiteGroupListCellView.swift; sourceTree = "<group>"; };
+		41680AFB216D116B002BDEAA /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		41822813216BDC76003C51D7 /* WebCatcherController_ScheduleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCatcherController_ScheduleExtension.swift; sourceTree = "<group>"; };
+		4184162E216E515A00EC47BC /* EmailAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAccountController.swift; sourceTree = "<group>"; };
+		418E91632208EE8F001E56F4 /* WebCatcher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebCatcher-Bridging-Header.h"; sourceTree = "<group>"; };
+		41A90CD82167C41E006F7F85 /* ScheduleCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCellView.swift; sourceTree = "<group>"; };
+		41A90CDA2167C41E006F7F85 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		41A90CDB2167C41F006F7F85 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		41ADACC421937EB2006533E3 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		41B72ACB219E161700A20379 /* SnapshotProcessViewController_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotProcessViewController_extension.swift; sourceTree = "<group>"; };
+		41C3B13C21960B240085D5D9 /* WebCatcherUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebCatcherUI.swift; sourceTree = "<group>"; };
+		41C3B13F21960D980085D5D9 /* PageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeaderView.swift; sourceTree = "<group>"; };
+		41CABF2422147620002C7A92 /* ActivityLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogController.swift; sourceTree = "<group>"; };
+		41E69AE7218772910069A1E8 /* GoogleDriveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveController.swift; sourceTree = "<group>"; };
+		41E69AF02187A32D0069A1E8 /* GoogleDrive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDrive.swift; sourceTree = "<group>"; };
+		41EB9540218754F300BEC866 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41F4443A24BF7970000F1B72 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		41F6FD7D215FF1E000A96FEC /* WebCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F6FD80215FF1E000A96FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41F6FD82215FF1E000A96FEC /* WebCatcherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCatcherController.swift; sourceTree = "<group>"; };
+		41F6FD84215FF1E200A96FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F6FD87215FF1E200A96FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41F6FD89215FF1E200A96FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F6FD8A215FF1E200A96FEC /* WebCatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebCatcher.entitlements; sourceTree = "<group>"; };
+		41F6FD8F215FF1E200A96FEC /* WebCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F6FD93215FF1E200A96FEC /* WebCatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCatcherTests.swift; sourceTree = "<group>"; };
+		41F6FD95215FF1E200A96FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5184869171D1BBA313D01725 /* Pods_WebCatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebCatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A960A4C09DC4E545987FB65D /* Pods-WebCatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCatcher.release.xcconfig"; path = "Target Support Files/Pods-WebCatcher/Pods-WebCatcher.release.xcconfig"; sourceTree = "<group>"; };
+		E43A49CB98ED2F0C8F3330A8 /* Pods-WebCatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCatcher.debug.xcconfig"; path = "Target Support Files/Pods-WebCatcher/Pods-WebCatcher.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F6FD7A215FF1E000A96FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F4443B24BF7970000F1B72 /* WebKit.framework in Frameworks */,
+				B03791EBDEA3B1B5EE082CF6 /* Pods_WebCatcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F6FD8C215FF1E200A96FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41359E3A218154BE00D84D56 /* PDF Cover */ = {
+			isa = PBXGroup;
+			children = (
+				41359E2F218154A900D84D56 /* PSCover.swift */,
+				41359E38218154B800D84D56 /* ViewController.swift */,
+			);
+			path = "PDF Cover";
+			sourceTree = "<group>";
+		};
+		4167C97F2194BA6400F8083D /* CaptureSiteGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4119FA4F217F88BC007429F1 /* CaptureSiteGroupViewController.swift */,
+			);
+			path = CaptureSiteGroup;
+			sourceTree = "<group>";
+		};
+		41822830216BF1BD003C51D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F4443A24BF7970000F1B72 /* WebKit.framework */,
+				5184869171D1BBA313D01725 /* Pods_WebCatcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A90CD72167C40A006F7F85 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				41ADACC421937EB2006533E3 /* ScheduleController.swift */,
+				41A90CDA2167C41E006F7F85 /* ScheduleViewController.swift */,
+				4167C9762194B86100F8083D /* ScheduleViewController_Extension.swift */,
+				4167C9802194EA8900F8083D /* CaptureSiteGroupListCellView.swift */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		41ADACC321937748006533E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41A90CDB2167C41F006F7F85 /* Schedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C3B13E21960D730085D5D9 /* Print View */ = {
+			isa = PBXGroup;
+			children = (
+				41C3B13F21960D980085D5D9 /* PageHeaderView.swift */,
+				41C3B13C21960B240085D5D9 /* WebCatcherUI.swift */,
+			);
+			path = "Print View";
+			sourceTree = "<group>";
+		};
+		41CABF23221475D4002C7A92 /* Activity Log */ = {
+			isa = PBXGroup;
+			children = (
+				41CABF2422147620002C7A92 /* ActivityLogController.swift */,
+			);
+			path = "Activity Log";
+			sourceTree = "<group>";
+		};
+		41E3B67F2188A929009019CB /* GoogleServiceConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoogleServiceConfiguration;
+			sourceTree = "<group>";
+		};
+		41E3B6822188AD4A009019CB /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				4184162E216E515A00EC47BC /* EmailAccountController.swift */,
+				41E69AE7218772910069A1E8 /* GoogleDriveController.swift */,
+				4103D2FF22C2B10700CEC6E0 /* WorkatoController.swift */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		41E4C15F231710C900B9EB9A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4119FA78217FD677007429F1 /* NotificationName.swift */,
+				41680AFB216D116B002BDEAA /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		41F6FD74215FF1E000A96FEC = {
+			isa = PBXGroup;
+			children = (
+				41F6FD7F215FF1E000A96FEC /* WebCatcher */,
+				41F6FD92215FF1E200A96FEC /* WebCatcherTests */,
+				41F6FD7E215FF1E000A96FEC /* Products */,
+				41822830216BF1BD003C51D7 /* Frameworks */,
+				41EB9540218754F300BEC866 /* Podfile */,
+				C24F650A9D7DA1A66EC4F29C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		41F6FD7E215FF1E000A96FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F6FD7D215FF1E000A96FEC /* WebCatcher.app */,
+				41F6FD8F215FF1E200A96FEC /* WebCatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F6FD7F215FF1E000A96FEC /* WebCatcher */ = {
+			isa = PBXGroup;
+			children = (
+				41E3B6822188AD4A009019CB /* Preference */,
+				41CABF23221475D4002C7A92 /* Activity Log */,
+				41F6FD80215FF1E000A96FEC /* AppDelegate.swift */,
+				4147C88821751984004D5ABE /* PersistantData.swift */,
+				4147C89121751DEF004D5ABE /* DataHandler.swift */,
+				41F6FD82215FF1E000A96FEC /* WebCatcherController.swift */,
+				41822813216BDC76003C51D7 /* WebCatcherController_ScheduleExtension.swift */,
+				41A90CD82167C41E006F7F85 /* ScheduleCellView.swift */,
+				415069572199F4AD00C3751B /* SnapshotProcessViewController.swift */,
+				41B72ACB219E161700A20379 /* SnapshotProcessViewController_extension.swift */,
+				413871B722C2D2E900B6151D /* WorkatoPostController.swift */,
+				41A90CD72167C40A006F7F85 /* Scheduler */,
+				4167C97F2194BA6400F8083D /* CaptureSiteGroup */,
+				41ADACC321937748006533E3 /* Model */,
+				41E69AF02187A32D0069A1E8 /* GoogleDrive.swift */,
+				41C3B13E21960D730085D5D9 /* Print View */,
+				41359E3A218154BE00D84D56 /* PDF Cover */,
+				41E4C15F231710C900B9EB9A /* Utilities */,
+				41F6FD84215FF1E200A96FEC /* Assets.xcassets */,
+				41F6FD86215FF1E200A96FEC /* Main.storyboard */,
+				41F6FD89215FF1E200A96FEC /* Info.plist */,
+				41E3B67F2188A929009019CB /* GoogleServiceConfiguration */,
+				418E91632208EE8F001E56F4 /* WebCatcher-Bridging-Header.h */,
+				41F6FD8A215FF1E200A96FEC /* WebCatcher.entitlements */,
+			);
+			path = WebCatcher;
+			sourceTree = "<group>";
+		};
+		41F6FD92215FF1E200A96FEC /* WebCatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F6FD93215FF1E200A96FEC /* WebCatcherTests.swift */,
+				41F6FD95215FF1E200A96FEC /* Info.plist */,
+			);
+			path = WebCatcherTests;
+			sourceTree = "<group>";
+		};
+		C24F650A9D7DA1A66EC4F29C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43A49CB98ED2F0C8F3330A8 /* Pods-WebCatcher.debug.xcconfig */,
+				A960A4C09DC4E545987FB65D /* Pods-WebCatcher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F6FD7C215FF1E000A96FEC /* WebCatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6FD98215FF1E200A96FEC /* Build configuration list for PBXNativeTarget "WebCatcher" */;
+			buildPhases = (
+				3AA88227B93BE9090A0E8B9C /* [CP] Check Pods Manifest.lock */,
+				41F6FD79215FF1E000A96FEC /* Sources */,
+				41F6FD7A215FF1E000A96FEC /* Frameworks */,
+				41F6FD7B215FF1E000A96FEC /* Resources */,
+				41822836216BF236003C51D7 /* CopyFiles */,
+				C3FB13FAF21B7A3F09DC137F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebCatcher;
+			productName = WebCatcher;
+			productReference = 41F6FD7D215FF1E000A96FEC /* WebCatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F6FD8E215FF1E200A96FEC /* WebCatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6FD9B215FF1E200A96FEC /* Build configuration list for PBXNativeTarget "WebCatcherTests" */;
+			buildPhases = (
+				41F6FD8B215FF1E200A96FEC /* Sources */,
+				41F6FD8C215FF1E200A96FEC /* Frameworks */,
+				41F6FD8D215FF1E200A96FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F6FD91215FF1E200A96FEC /* PBXTargetDependency */,
+			);
+			name = WebCatcherTests;
+			productName = WebCatcherTests;
+			productReference = 41F6FD8F215FF1E200A96FEC /* WebCatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F6FD75215FF1E000A96FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Digital Bytes Inc.";
+				TargetAttributes = {
+					41F6FD7C215FF1E000A96FEC = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1150;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					41F6FD8E215FF1E200A96FEC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 41F6FD7C215FF1E000A96FEC;
+					};
+				};
+			};
+			buildConfigurationList = 41F6FD78215FF1E000A96FEC /* Build configuration list for PBXProject "WebCatcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F6FD74215FF1E000A96FEC;
+			productRefGroup = 41F6FD7E215FF1E000A96FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F6FD7C215FF1E000A96FEC /* WebCatcher */,
+				41F6FD8E215FF1E200A96FEC /* WebCatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F6FD7B215FF1E000A96FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EB9541218754F300BEC866 /* Podfile in Resources */,
+				41F6FD85215FF1E200A96FEC /* Assets.xcassets in Resources */,
+				41F6FD88215FF1E200A96FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F6FD8D215FF1E200A96FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AA88227B93BE9090A0E8B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebCatcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FB13FAF21B7A3F09DC137F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebCatcher/Pods-WebCatcher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebCatcher/Pods-WebCatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F6FD79215FF1E000A96FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C3B14021960D980085D5D9 /* PageHeaderView.swift in Sources */,
+				41B72ACC219E161700A20379 /* SnapshotProcessViewController_extension.swift in Sources */,
+				41C3B13D21960B240085D5D9 /* WebCatcherUI.swift in Sources */,
+				41CABF2622147620002C7A92 /* ActivityLogController.swift in Sources */,
+				41A90CDF2167C41F006F7F85 /* Schedule.swift in Sources */,
+				4119FA50217F88BC007429F1 /* CaptureSiteGroupViewController.swift in Sources */,
+				41359E37218154A900D84D56 /* PSCover.swift in Sources */,
+				4167C9812194EA8900F8083D /* CaptureSiteGroupListCellView.swift in Sources */,
+				41F6FD83215FF1E000A96FEC /* WebCatcherController.swift in Sources */,
+				415069582199F4AD00C3751B /* SnapshotProcessViewController.swift in Sources */,
+				4167C9772194B86100F8083D /* ScheduleViewController_Extension.swift in Sources */,
+				4147C89221751DF0004D5ABE /* DataHandler.swift in Sources */,
+				4119FA79217FD677007429F1 /* NotificationName.swift in Sources */,
+				4103D30022C2B10700CEC6E0 /* WorkatoController.swift in Sources */,
+				41E69AE8218772910069A1E8 /* GoogleDriveController.swift in Sources */,
+				4184162F216E515A00EC47BC /* EmailAccountController.swift in Sources */,
+				41359E39218154B800D84D56 /* ViewController.swift in Sources */,
+				41ADACC521937EB2006533E3 /* ScheduleController.swift in Sources */,
+				41680AFC216D116B002BDEAA /* Utility.swift in Sources */,
+				4147C88921751984004D5ABE /* PersistantData.swift in Sources */,
+				41822814216BDC76003C51D7 /* WebCatcherController_ScheduleExtension.swift in Sources */,
+				413871B822C2D2E900B6151D /* WorkatoPostController.swift in Sources */,
+				41A90CDC2167C41F006F7F85 /* ScheduleCellView.swift in Sources */,
+				41E69AF12187A32D0069A1E8 /* GoogleDrive.swift in Sources */,
+				41A90CDE2167C41F006F7F85 /* ScheduleViewController.swift in Sources */,
+				41F6FD81215FF1E000A96FEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F6FD8B215FF1E200A96FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F6FD94215FF1E200A96FEC /* WebCatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F6FD91215FF1E200A96FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F6FD7C215FF1E000A96FEC /* WebCatcher */;
+			targetProxy = 41F6FD90215FF1E200A96FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41F6FD86215FF1E200A96FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F6FD87215FF1E200A96FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41F6FD96215FF1E200A96FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41F6FD97215FF1E200A96FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41F6FD99215FF1E200A96FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43A49CB98ED2F0C8F3330A8 /* Pods-WebCatcher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebCatcher/WebCatcher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FLBHDZQ3QA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WebCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.21;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.digitalbytes.WebCatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WebCatcher/WebCatcher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41F6FD9A215FF1E200A96FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A960A4C09DC4E545987FB65D /* Pods-WebCatcher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebCatcher/WebCatcher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FLBHDZQ3QA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WebCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.21;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.digitalbytes.WebCatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WebCatcher/WebCatcher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		41F6FD9C215FF1E200A96FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GN274JY6Y2;
+				INFOPLIST_FILE = WebCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalbytes.WebCatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebCatcher.app/Contents/MacOS/WebCatcher";
+			};
+			name = Debug;
+		};
+		41F6FD9D215FF1E200A96FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GN274JY6Y2;
+				INFOPLIST_FILE = WebCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalbytes.WebCatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebCatcher.app/Contents/MacOS/WebCatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F6FD78215FF1E000A96FEC /* Build configuration list for PBXProject "WebCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F6FD96215FF1E200A96FEC /* Debug */,
+				41F6FD97215FF1E200A96FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6FD98215FF1E200A96FEC /* Build configuration list for PBXNativeTarget "WebCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F6FD99215FF1E200A96FEC /* Debug */,
+				41F6FD9A215FF1E200A96FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6FD9B215FF1E200A96FEC /* Build configuration list for PBXNativeTarget "WebCatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F6FD9C215FF1E200A96FEC /* Debug */,
+				41F6FD9D215FF1E200A96FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41F6FD75215FF1E000A96FEC /* Project object */;
+}
